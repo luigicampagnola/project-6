@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.signUpForm {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+@font-face {
+  font-family: "College Star Full Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("College Star Full Regular"),
+    url("College Star Full LoveSVG.woff") format("woff");
+}
+
+.header-font {
+  font-family: "College Star Full Regular";
+}
+
+.logo-placer {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-style {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  min-height: 75vh;
+}
