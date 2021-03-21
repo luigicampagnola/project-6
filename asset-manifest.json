@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/recognizer/static/css/main.3951622a.chunk.css",
+    "main.js": "/recognizer/static/js/main.29b130c0.chunk.js",
+    "main.js.map": "/recognizer/static/js/main.29b130c0.chunk.js.map",
+    "runtime-main.js": "/recognizer/static/js/runtime-main.cc558cfa.js",
+    "runtime-main.js.map": "/recognizer/static/js/runtime-main.cc558cfa.js.map",
+    "static/css/2.fe359a49.chunk.css": "/recognizer/static/css/2.fe359a49.chunk.css",
+    "static/js/2.8d496ff1.chunk.js": "/recognizer/static/js/2.8d496ff1.chunk.js",
+    "static/js/2.8d496ff1.chunk.js.map": "/recognizer/static/js/2.8d496ff1.chunk.js.map",
+    "static/js/3.a7abe975.chunk.js": "/recognizer/static/js/3.a7abe975.chunk.js",
+    "static/js/3.a7abe975.chunk.js.map": "/recognizer/static/js/3.a7abe975.chunk.js.map",
+    "index.html": "/recognizer/index.html",
+    "static/css/2.fe359a49.chunk.css.map": "/recognizer/static/css/2.fe359a49.chunk.css.map",
+    "static/css/main.3951622a.chunk.css.map": "/recognizer/static/css/main.3951622a.chunk.css.map",
+    "static/js/2.8d496ff1.chunk.js.LICENSE.txt": "/recognizer/static/js/2.8d496ff1.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/recognizer/static/media/College Star Full LoveSVG.9cc2c0a3.woff",
+    "static/media/logo.752a98b7.png": "/recognizer/static/media/logo.752a98b7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc558cfa.js",
+    "static/css/2.fe359a49.chunk.css",
+    "static/js/2.8d496ff1.chunk.js",
+    "static/css/main.3951622a.chunk.css",
+    "static/js/main.29b130c0.chunk.js"
+  ]
+}
