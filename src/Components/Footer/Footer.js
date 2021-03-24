@@ -9,6 +9,7 @@ const Footer = () => {
         className="link near-white hover-light-green dib h2 w2 mr3"
         href="https://www.facebook.com/luigi.campagnola.94/"
         title="Facebook"
+        target="_blank"
       >
         <svg
           fill="currentColor"
@@ -29,6 +30,7 @@ const Footer = () => {
         className="link near-white hover-light-green dib h2 w2 mr3"
         href="https://github.com/luigicampagnola"
         title="GitHub"
+        target="_blank"
       >
         <svg
           fill="currentColor"
@@ -46,6 +48,7 @@ const Footer = () => {
         className="link near-white hover-light-green dib h2 w2 mr3"
         href="https://www.youtube.com/channel/UCGa9cwKFd3YWWqh6Nza3PsQ"
         title="youtube"
+        target="_blank"
       >
         <svg
           fill="currentColor"
@@ -63,6 +66,7 @@ const Footer = () => {
         className="link hover-light-green near-white dib h2 w2 mr3"
         href="https://www.instagram.com/campagnolaluigi/"
         title="Instagram"
+        target="_blank"
       >
         <svg
           fill="currentColor"
@@ -80,6 +84,7 @@ const Footer = () => {
         className="link hover-light-green near-white dib h2 w2 mr3"
         href="https://stackoverflow.com/users/14992008/lcampagnola"
         title="Stack Overflow"
+        target="_blank"
       >
         <svg
           fill="currentColor"
@@ -97,6 +102,7 @@ const Footer = () => {
         className="link hover-light-green near-white dib h2 w2 mr3"
         href="https://codepen.io/luigicampagnola"
         title="CodePen"
+        target="_blank"
       >
         <svg
           fill="currentColor"
@@ -117,6 +123,7 @@ const Footer = () => {
         className="link hover-light-green near-white dib h2 w2 mr3"
         href="https://www.linkedin.com/in/luigi-campagnola-0482871a0/"
         title="LinkedIn"
+        target="_blank"
       >
         <svg
           fill="currentColor"
