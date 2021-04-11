@@ -10,6 +10,7 @@ const Footer = () => {
         href="https://www.facebook.com/luigi.campagnola.94/"
         title="Facebook"
         target="_blank"
+        rel="noreferrer"
       >
         <svg
           fill="currentColor"
@@ -31,6 +32,7 @@ const Footer = () => {
         href="https://github.com/luigicampagnola"
         title="GitHub"
         target="_blank"
+        rel="noreferrer"
       >
         <svg
           fill="currentColor"
@@ -49,6 +51,7 @@ const Footer = () => {
         href="https://www.youtube.com/channel/UCGa9cwKFd3YWWqh6Nza3PsQ"
         title="youtube"
         target="_blank"
+        rel="noreferrer"
       >
         <svg
           fill="currentColor"
@@ -67,6 +70,7 @@ const Footer = () => {
         href="https://www.instagram.com/campagnolaluigi/"
         title="Instagram"
         target="_blank"
+        rel="noreferrer"
       >
         <svg
           fill="currentColor"
@@ -85,6 +89,7 @@ const Footer = () => {
         href="https://stackoverflow.com/users/14992008/lcampagnola"
         title="Stack Overflow"
         target="_blank"
+        rel="noreferrer"
       >
         <svg
           fill="currentColor"
@@ -103,6 +108,7 @@ const Footer = () => {
         href="https://codepen.io/luigicampagnola"
         title="CodePen"
         target="_blank"
+        rel="noreferrer"
       >
         <svg
           fill="currentColor"
@@ -124,6 +130,7 @@ const Footer = () => {
         href="https://www.linkedin.com/in/luigi-campagnola-0482871a0/"
         title="LinkedIn"
         target="_blank"
+        rel="noreferrer"
       >
         <svg
           fill="currentColor"
