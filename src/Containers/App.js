@@ -9,11 +9,6 @@ import ActorImage from "../Components/ActorImage/ActorImage";
 import particlesConfig from "../Components/Particles/ParticlesConfig";
 import Instructions from "../Components/Instructions/Intructions";
 import Footer from "../Components/Footer/Footer";
-import ErrorBoundry from "../Components/ErrorBoundry/ErrorBoundry";
-/* import Navigation from "./Components/Navigation/Navigation";
-import SignIn from "./Components/SignIn/SignIn";
-import Header from "./Components/Header/Hearder"; 
-import Register from "./Components/Register/Register";  */
 
 const app = new Clarifai.App({
   apiKey: "812fd1e20128438291b068e79b6ab402",
@@ -26,8 +21,6 @@ class App extends Component {
       input: "",
       imgUrl: "",
       nameDetected: "",
-      /*       route: "signin",
-      isSignedIn: false, */
     };
   }
 
@@ -62,47 +55,23 @@ class App extends Component {
       .catch((err) => console.log(err));
   };
 
-  /*   onRouteChange = (route) => {
-    if (route === "signout") {
-      this.setState({ isSignedIn: false });
-    } else if (route === 'home'){
-      this.setState({isSignedIn: true})
-    }
-    this.setState({ route: route });
-  }; */
-
   render() {
     return (
       <div>
         <Particles params={particlesConfig} className="particles" />
-        {/*         <Navigation isSignedIn={this.state.isSignedIn} onRouteChange={this.onRouteChange} /> */}
         <Logo />
-        {/*         {this.state.route === "home" ? (
-          <div> */}
+
         <Instructions />
         <ImageLinkForm
           onClickHandler={this.onClickHandler}
           onInputChange={this.onInputChange}
         />
-        <ErrorBoundry>
-          <ActorImage
-            imgUrl={this.state.imgUrl}
-            nameDetected={this.state.nameDetected}
-          />
-        </ErrorBoundry>
+        <ActorImage
+          imgUrl={this.state.imgUrl}
+          nameDetected={this.state.nameDetected}
+        />
         <Footer className="footer-style" />
       </div>
-      /*         ) : this.state.route === "signin" ? (
-          <div>
-            <Header />
-            <SignIn onRouteChange={this.onRouteChange} />
-          </div>
-        ) : (
-          <div>
-            <Register onRouteChange={this.onRouteChange} />
-          </div>
-        )}
-      </div> */
     );
   }
 }

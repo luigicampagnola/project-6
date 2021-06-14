@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="body">
+    <div className="footer">
       <footer className="pv4 ph3 ph5-ns tc">
       <a
         className="link near-white hover-light-green dib h2 w2 mr3"
