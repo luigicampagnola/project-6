@@ -60,7 +60,6 @@ class App extends Component {
       <div>
         <Particles params={particlesConfig} className="particles" />
         <Logo />
-
         <Instructions />
         <ImageLinkForm
           onClickHandler={this.onClickHandler}
